@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.page{
+    background-image: url(/4597135.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.topbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 20px;
+}
+.nav-section{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+.nav-section li{
+    text-decoration: none;
+    margin-left: 20px;
+}
+/* .model{
+    top: 100px;
+} */
+
+
+
+
+
+.card-body {
+    text-align: justify;
+}
+
+.online-stores img {
+    width: 170px;
+    height: 150px;
+    margin: 5px;
+}
+
+.LoginPopupRight {
+    background-image: linear-gradient(to right top, #afcb06, #28b558, #009481, #006e85, #0f4865);
+    padding-top: 40px;
+}
+.brand-logo {
+    /* font-size: 60px; */
+    color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: auto;
+    border-radius: 3%;
+    /* background-color: #fff; */
+    margin-left: 35%;
+    margin-top: 0;
+    margin-bottom: 35px;
+    /* background: white; */
+    padding: 0px !important;
+}
+.logindiv {
+    margin-top: 80px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.loginboxes {
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    padding: 8px 0px;
+    width: 86px;
+    height: 90px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+.loginboxes .fa {
+    font-size: 30px;
+    color: #fff;
+    display: block;
+}
+.loginboxes span {
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    margin-top: 8px;
+}
+.LoginPopupLeft1 {
+    background: #fff;
+    padding-right: 30px;
+}
+.tab-content {
+    padding: 15px 15px 10px;
+    margin-bottom: 20px;
+    z-index: 2;
+    /* border: 1px solid #ddd; */
+    border-top: 0px;
+}
+/* label {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    font-family: "Poppins", sans-serif !important;
+} */
+.TextRed {
+    color: red;
+    font-weight: 400;
+}
+
+.formtxt {
+    font-size: 13px !important;
+    border-radius: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    box-shadow: 0px;
+    border-bottom: 1px solid #cdcdcd;
+    display: block;
+    width: 100%;
+    height: 31px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fff;
+    background-image: none;
+    margin-top: 10px;
+}
+.text-center {
+    text-align: center!important;
+}
+.modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    padding: 0;
+}
+.btn-light{
+    border: 1px solid #cacfd5;
+    border-bottom: none;
+    border-radius: 0;
+    font-weight: 600;
+}
+.btn-light:hover{
+    color: #009481;
+}
+.modal-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0;
+    padding-top: 15px;
+    /* border-bottom: 1px solid #cacfd5; */
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+/* #PopupLeft1{
+    padding-right: 30px;
+} */
+.form-control{
+    margin: 10px 0;
+}
+.form-group{
+    margin: 10px 0;
+}
